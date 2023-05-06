@@ -23,11 +23,7 @@ class App {
     const url = UrlParser.parseActiveUrlWithCombiner();
     const page = routes[url];
     this._content.innerHTML = await page.render();
-    await page.afterRender({
-      button: this._button,
-      drawer: this._drawer,
-      content: this._content,
-    });
+    await page.afterRender();
   }
 }
 

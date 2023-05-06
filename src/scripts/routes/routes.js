@@ -5,7 +5,7 @@ import Detail from '../views/pages/detail';
 const routes = {
   '/': ExploreRestaurants,
   '/home': ExploreRestaurants,
-  '/favorites': Favorite,
+  '/favorite': Favorite,
   '/detail/:id': Detail,
 };
 
