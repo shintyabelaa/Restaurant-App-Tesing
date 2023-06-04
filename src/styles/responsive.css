@@ -210,13 +210,15 @@
       display: block;
       font-size: 32px;
       text-decoration: none;
-      color: rgb(255, 255, 255);
+      color: rgb(217, 217, 217);
       margin: 0 0 0 20px; 
       position: absolute;
       z-index: 1;
       left: 0;
       min-width: 44px;
       min-height: 44px;
+      background-color: transparent;
+      border: none;
     }
     
     .nav__list {
