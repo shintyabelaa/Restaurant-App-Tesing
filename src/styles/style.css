@@ -154,6 +154,7 @@ button.headline__button a{
 }
 
 /* content */
+
 .explore {
   width: 100%;
   margin: 60px auto;
@@ -177,6 +178,17 @@ button.headline__button a{
 .content{
   padding: 32px;
   flex-direction: row;
+}
+
+input#query{
+  width: 80%;
+  height: 50px;
+  border: 2px solid #5CB969;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 8px;
+  outline: none;
+  color: #5CB969;
 }
 
 article{
