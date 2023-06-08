@@ -70,7 +70,7 @@ describe('Searching restaurants', () => {
         .toHaveBeenCalledWith('resto a');
     });
 
-    fit('should show the found Restaurants', () => {
+    it('should show the found Restaurants', () => {
       presenter._showFoundRestaurants([{ id: 1 }]);
       expect(document.querySelectorAll('.restaurant-item').length)
         .toEqual(1);

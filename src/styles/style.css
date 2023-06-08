@@ -267,6 +267,7 @@ article{
   color: #ffffff;
   cursor: pointer;
   z-index: 99;
+  padding-left: 0;
   position: relative;
   min-width: 44px;
   min-height: 44px;

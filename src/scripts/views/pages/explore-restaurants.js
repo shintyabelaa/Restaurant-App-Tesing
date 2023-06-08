@@ -16,7 +16,7 @@ const ExploreRestaurants = {
 
   async afterRender() {
     const restaurants = await RestaurantSource.exploreRestaurants();
-    const restaurantsContainer = document.querySelector('.restaurants');
+    const restaurantsContainer = document.querySelector('#restaurants');
     restaurants.forEach((restaurant) => {
       const restaurantListTemplate = createRestaurantListTemplate(restaurant);
       restaurantsContainer.innerHTML += restaurantListTemplate;
